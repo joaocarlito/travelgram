@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 0;
+    padding-block: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-block: 8px;
+    gap: 24px;
+}
+
+nav ul li:last-child img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bg-surface-color {
+    background-color: var(--surface-color);
+}
